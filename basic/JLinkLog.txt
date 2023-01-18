@@ -1,0 +1,97 @@
+T0F60 000:184.313   SEGGER J-Link V7.82 Log File
+T0F60 000:184.459   DLL Compiled: Oct 13 2022 13:32:51
+T0F60 000:184.468   Logging started @ 2023-01-18 11:41
+T0F60 000:184.475 - 184.478ms
+T0F60 000:184.489 JLINK_SetWarnOutHandler(...)
+T0F60 000:184.501 - 0.016ms
+T0F60 000:184.512 JLINK_OpenEx(...)
+T0F60 000:190.469   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T0F60 000:191.148   Firmware: J-Link ARM V8 compiled Nov 28 2014 13:44:46
+T0F60 000:195.114   Hardware: V8.00
+T0F60 000:195.158   S/N: 20180206
+T0F60 000:195.167   OEM: SEGGER
+T0F60 000:195.177   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T0F60 000:197.434   TELNET listener socket opened on port 19021
+T0F60 000:197.676   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T0F60 000:197.831   WEBSRV Webserver running on local port 19080
+T0F60 000:205.933 - 21.440ms returns "O.K."
+T0F60 000:205.988 JLINK_GetEmuCaps()
+T0F60 000:205.999 - 0.015ms returns 0xB9FF7BBF
+T0F60 000:206.021 JLINK_TIF_GetAvailable(...)
+T0F60 000:206.401 - 0.388ms
+T0F60 000:206.423 JLINK_SetErrorOutHandler(...)
+T0F60 000:206.430 - 0.010ms
+T0F60 000:206.455 JLINK_ExecCommand("ProjectFile = "D:\AVH-GetStarted\basic\JLinkSettings.ini"", ...). 
+T0F60 000:226.410   XML file found at: C:\Keil\ARM\Segger\JLinkDevices.xml
+T0F60 000:226.643   C:\Keil\ARM\Segger\JLinkDevices.xml evaluated successfully.
+T0F60 000:226.663     Device entry created:  SBF508AF
+T0F60 000:226.678       ChipInfo:
+T0F60 000:226.693         Vendor:          Syntronix
+T0F60 000:226.720         Name:            SBF508AF
+T0F60 000:226.739         Core:            JLINK_CORE_CORTEX_M0
+T0F60 000:226.757         WorkRAMAddr:     0x20000000
+T0F60 000:226.772         WorkRAMSize:     0x0000CC00
+T0F60 000:226.788       FlashBankInfo:
+T0F60 000:226.800         Name:            Internal Flash
+T0F60 000:226.953         AlwaysPresent:   1
+T0F60 000:226.975   
+  ***** Internal Error: 
+T0F60 000:226.985   Device: SBF508AF: Flash bank 0x00000000: No loader specified
+T0F60 000:227.162   Looking for J-Link GUI Server exe at: C:\Keil\ARM\Segger\JLinkGUIServer.exe
+T0F60 000:227.318   Looking for J-Link GUI Server exe at: \JLinkGUIServer.exe
+T0F60 000:527.191   Failed to connect to J-Link GUI Server.
+T0F60 001:819.094     Device entry created:  SBF508BF
+T0F60 001:819.124       ChipInfo:
+T0F60 001:819.146         Vendor:          Syntronix
+T0F60 001:819.163         Name:            SBF508BF
+T0F60 001:819.182         Core:            JLINK_CORE_CORTEX_M0
+T0F60 001:819.206         WorkRAMAddr:     0x20000000
+T0F60 001:819.223         WorkRAMSize:     0x0000CC00
+T0F60 001:819.239       FlashBankInfo:
+T0F60 001:819.253         Name:            Internal Flash
+T0F60 001:819.430         AlwaysPresent:   1
+T0F60 001:819.667   Device "CORTEX-M55" selected.
+T0F60 001:820.091 - 1613.642ms returns 0x00
+T0F60 001:820.126 JLINK_ExecCommand("Device = SSE-300-MPS3", ...). 
+T0F60 001:821.195   Device "CORTEX-M55" selected.
+T0F60 001:821.580 - 0.747ms returns 0x00
+T0F60 001:821.596 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T0F60 001:821.611 - 0.007ms returns 0x01
+T0F60 001:821.620 JLINK_GetHardwareVersion()
+T0F60 001:821.627 - 0.009ms returns 80000
+T0F60 001:821.642 JLINK_GetDLLVersion()
+T0F60 001:821.648 - 0.009ms returns 78200
+T0F60 001:821.656 JLINK_GetOEMString(...)
+T0F60 001:821.665 JLINK_GetFirmwareString(...)
+T0F60 001:821.672 - 0.012ms
+T0F60 001:821.688 JLINK_GetDLLVersion()
+T0F60 001:821.694 - 0.009ms returns 78200
+T0F60 001:821.702 JLINK_GetCompileDateTime()
+T0F60 001:821.711 - 0.011ms
+T0F60 001:821.721 JLINK_GetFirmwareString(...)
+T0F60 001:821.728 - 0.009ms
+T0F60 001:821.737 JLINK_GetHardwareVersion()
+T0F60 001:821.743 - 0.009ms returns 80000
+T0F60 001:821.753 JLINK_GetSN()
+T0F60 001:821.760 - 0.010ms returns 20180206
+T0F60 001:821.769 JLINK_GetOEMString(...)
+T0F60 001:821.782 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T0F60 001:822.824 - 1.051ms returns 0x00
+T0F60 001:822.842 JLINK_HasError()
+T0F60 001:822.865 JLINK_SetSpeed(5000)
+T0F60 001:823.015 - 0.158ms
+T0F60 001:823.317 JLINK_HasError()
+T0F60 001:823.375 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T0F60 001:823.382 - 0.010ms returns JLINKARM_RESET_TYPE_NORMAL
+T0F60 001:823.390 JLINK_Reset()
+T0F60 001:823.767 - 0.384ms
+T0F60 001:823.784 JLINK_GetId()
+T0F60 001:824.060 - 0.287ms returns 0x00000000
+T0F60 001:824.080 JLINK_GetId()
+T0F60 001:824.467 - 0.395ms returns 0x00000000
+T0F60 001:829.493 JLINK_GetFirmwareString(...)
+T0F60 001:829.528 - 0.041ms
+T0F60 068:319.392 JLINK_Close()
+T0F60 068:338.487 - 19.121ms
+T0F60 068:338.519   
+T0F60 068:338.527   Closed
